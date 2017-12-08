@@ -526,6 +526,9 @@ header .navbar-default .navbar-nav>li>a:hover{
     .we_right .right_wrap{
         width:100%;
     }
+    .more_par{
+        display:none;
+    }
 }
 .section5 .we_left{
     -webkit-transition: 1.5s all;
