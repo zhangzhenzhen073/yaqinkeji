@@ -136,11 +136,11 @@ header .navbar-default .navbar-nav>li>a:hover{
 
 /*service begin*/
 .index-row{
-    padding:9% 0;
+    padding:2rem 0;
 }
 .index-row .main_title {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: .3rem;
     font-family: Arial;
     color:#bdcfe1;
 }
@@ -152,10 +152,15 @@ header .navbar-default .navbar-nav>li>a:hover{
     transform: scale(.5,.5) translateY(-50px);
 }
 .section.active .index-row .main_title .h1{
-    font-size: .38rem;
+    font-size: 36px;
     -webkit-transform: scale(1,1) translateY(0);
     -ms-transform: scale(1,1) translateY(0);
     transform: scale(1,1) translateY(0);
+}
+@media screen and (max-width: 850px){
+    .section.active .index-row .main_title .h1{
+        font-size: 26px;
+    }
 }
 .index-row .main_title .title_line{
     height:30px;
@@ -169,6 +174,12 @@ header .navbar-default .navbar-nav>li>a:hover{
     -ms-transform: scale(.5,.5) translateY(50px);
     transform: scale(.5,.5) translateY(50px);
 }
+@media screen and (max-width: 850px){
+    .index-row .main_title .title_line{
+        font-size: 18px;
+    }
+}
+
 .section.active .index-row .main_title .title_line{
     -webkit-transform: scale(1,1) translateY(0);
     -ms-transform: scale(1,1) translateY(0);
