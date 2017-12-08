@@ -148,6 +148,7 @@ header .navbar-default .navbar-nav>li>a:hover{
 .index-row{
     padding:2rem 0;
 }
+
 .index-row .main_title {
     text-align: center;
     margin-bottom: .3rem;
@@ -236,9 +237,11 @@ header .navbar-default .navbar-nav>li>a:hover{
     width: 55px;
     margin:15px auto 0;
 }
+/*
 .container_inf,.container_par{
     position: relative;
 }
+*/
 .container_inf .ul_wrap{
     margin-top:5%;
 }
@@ -266,7 +269,7 @@ header .navbar-default .navbar-nav>li>a:hover{
     position: absolute;
     left:50%;
     margin-left:-70px;
-    top:110%;
+    bottom:10%;
 }
 @media screen and (max-width: 850px){
     .more{
@@ -275,15 +278,10 @@ header .navbar-default .navbar-nav>li>a:hover{
         line-height: 35px;
         margin-left:-60px;
         font-size: 16px;
-        top:100%;
     }
 }
-
 .more:hover{
     color:#fff;
-}
-.container_par .more{
-    top:110%;
 }
 .inf_icon_wrap span{
     display:block;
@@ -553,7 +551,29 @@ header .navbar-default .navbar-nav>li>a:hover{
 }
 /*about end*/
 
+@media screen and (min-width:850px) and (max-width: 1500px){
+    .index-row{
+        padding:1rem 0;
+    }
+    .container_ser ul{
+        overflow:hidden;
+        width:880px;
+        margin:0 auto;
+    }
+    .container_inf ul{
+        overflow:hidden;
+        width:950px;
+        margin:0 auto;
+    }
+    .container_par .thumbnails{
+        width:900px;
+        margin: 0 auto;
+    }
+    .container_inf .ul_wrap {
+        margin-top: 2%;
+    }
 
+}
 
 
 
