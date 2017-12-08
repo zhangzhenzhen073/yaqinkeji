@@ -54,18 +54,18 @@ header .navbar-default .navbar-nav>li>a:hover{
     position: absolute;
     top:50%;
     left:50%;
-    width:722px;
-    margin-left:-675px;
-    margin-top:-300px;
+    width:7.22rem;
+    margin-left:-6.75rem;
+    margin-top:-3rem;
     z-index: 1;
 }
-@media screen and (max-width: 850px){
+/*@media screen and (max-width: 850px){
     .ad_left{
         width:580px;
         margin-left:-550px;
         margin-top:-240px;
     }
-}
+}*/
 .section.active .slide.active .ad_left{
 
     -webkit-animation:bounceInDown 1s linear;
@@ -79,18 +79,18 @@ header .navbar-default .navbar-nav>li>a:hover{
     position: absolute;
     top:50%;
     left:50%;
-    width: 691px;
-    margin-left: -610px;
-    margin-top: -270px;
+    width: 6.91rem;
+    margin-left: -6.10rem;
+    margin-top: -2.7rem;
     z-index: 1;
 }
-@media screen and (max-width: 850px){
+/*@media screen and (max-width: 850px){
     .dy_left{
         width: 280px;
         margin-left: -228px;
         margin-top: -98px;
     }
-}
+}*/
 .section.active .slide.active .dy_left{
     -webkit-animation:bounceInLeft 1s linear;
     animation:bounceInLeft 1s linear;
@@ -103,18 +103,18 @@ header .navbar-default .navbar-nav>li>a:hover{
     position: absolute;
     top:50%;
     left:50%;
-    width: 625px;
-    margin-left: -610px;
-    margin-top: -270px;
+    width: 6.25rem;
+    margin-left: -6.1rem;
+    margin-top: -2.7rem;
     z-index: 1;
 }
-@media screen and (max-width: 850px){
+/*@media screen and (max-width: 850px){
     .zg_left{
         width: 300px;
         margin-left: -228px;
         margin-top: -98px;
     }
-}
+}*/
 .section.active .slide.active .zg_left{
     -webkit-animation:zoomIn .8s linear;
     animation:zoomIn .8s linear;
