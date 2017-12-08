@@ -26,6 +26,16 @@ header .navbar-default .navbar-nav>li>a {
     padding: 16px 25px 5px !important;
     color:#fff;
 }
+header .navbar-brand{
+    width:200px;
+    padding:0 0 0 15px;
+}
+@media (max-width: 768px){
+    header  .navbar-brand{
+        width:160px;
+        padding: 8px 0 0 15px;
+    }
+}
 header .navbar-default .navbar-nav>.active>a, header .navbar-default .navbar-nav>.active>a:focus, header .navbar-default .navbar-nav>.active>a:hover{
     color: #ff6527;
     background-color: rgba(255,255,255,0);
@@ -158,6 +168,9 @@ header .navbar-default .navbar-nav>li>a:hover{
     transform: scale(1,1) translateY(0);
 }
 @media screen and (max-width: 850px){
+    .index-row{
+        padding:2.5rem 0;
+    }
     .section.active .index-row .main_title .h1{
         font-size: 26px;
     }
@@ -260,8 +273,9 @@ header .navbar-default .navbar-nav>li>a:hover{
         width:120px;
         height:35px;
         line-height: 35px;
-        margin-left:-50px;
+        margin-left:-60px;
         font-size: 16px;
+        top:100%;
     }
 }
 
@@ -377,12 +391,6 @@ header .navbar-default .navbar-nav>li>a:hover{
     overflow: hidden;
     margin:40px 30px 60px 30px;
 }
-@media screen and (max-width: 850px){
-    .container_par .thumbnails{
-        margin:20px 10px 20px 10px;
-    }
-}
-
 .container_par .thumbnails li{
     height: 150px;
     display: table;
@@ -408,8 +416,14 @@ header .navbar-default .navbar-nav>li>a:hover{
     max-height: 120px;
 }
 @media screen and (max-width: 850px){
+    .container_par .thumbnails{
+        margin:20px 0 20px 0;
+    }
+    .container_par .thumbnails li{
+        height:120px;
+    }
     .container_par .thumbnails li a img{
-        max-width: 160px;
+        max-width: 140px;
     }
 }
 .container_par .thumbnails li p{

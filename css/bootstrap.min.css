@@ -4911,7 +4911,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #ddd
+    background-color: #9d9d9d
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
