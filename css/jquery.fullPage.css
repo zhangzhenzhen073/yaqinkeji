@@ -246,3 +246,10 @@ html.fp-enabled,
 .fp-controlArrow.fp-next:hover{
     background-position: -50px -48px;
 }
+
+@media screen and (max-width: 850px){
+    .fp-controlArrow.fp-prev,.fp-controlArrow.fp-next{
+        display:none;
+    }
+}
+

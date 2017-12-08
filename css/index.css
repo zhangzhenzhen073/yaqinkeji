@@ -152,6 +152,7 @@ header .navbar-default .navbar-nav>li>a:hover{
     transform: scale(.5,.5) translateY(-50px);
 }
 .section.active .index-row .main_title .h1{
+    font-size: .38rem;
     -webkit-transform: scale(1,1) translateY(0);
     -ms-transform: scale(1,1) translateY(0);
     transform: scale(1,1) translateY(0);
