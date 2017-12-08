@@ -241,10 +241,10 @@ header .navbar-default .navbar-nav>li>a:hover{
     color:#ff6527;
 }
 .more{
-    width:1.43rem;
-    height:.4rem;
-    line-height: .4rem;
-    font-size:.18rem;
+    width:140px;
+    height:40px;
+    line-height: 40px;
+    font-size:18px;
     border-radius: 50px;
     color: #fff;
     background-color: #0066b5;
@@ -252,15 +252,16 @@ header .navbar-default .navbar-nav>li>a:hover{
     text-align: center;
     position: absolute;
     left:50%;
-    margin-left:-.72rem;
+    margin-left:-70px;
     top:110%;
 }
 @media screen and (max-width: 850px){
     .more{
-        width:100px;
-        height:40px;
-        line-height: 40px;
+        width:120px;
+        height:35px;
+        line-height: 35px;
         margin-left:-50px;
+        font-size: 16px;
     }
 }
 
@@ -376,6 +377,12 @@ header .navbar-default .navbar-nav>li>a:hover{
     overflow: hidden;
     margin:40px 30px 60px 30px;
 }
+@media screen and (max-width: 850px){
+    .container_par .thumbnails{
+        margin:20px 10px 20px 10px;
+    }
+}
+
 .container_par .thumbnails li{
     height: 150px;
     display: table;
@@ -399,6 +406,11 @@ header .navbar-default .navbar-nav>li>a:hover{
     line-height: 0;
     max-width: 210px;
     max-height: 120px;
+}
+@media screen and (max-width: 850px){
+    .container_par .thumbnails li a img{
+        max-width: 160px;
+    }
 }
 .container_par .thumbnails li p{
     width:100%;
@@ -426,61 +438,62 @@ header .navbar-default .navbar-nav>li>a:hover{
 .we_left{
     width:45%;
     float:left;
-    padding:4rem;
+    padding:.4rem;
     text-align: right;
 }
 .we_left .p1{
     font-size: 26px;
     font-family:"楷体";
-    margin:1.5rem 0 1.5rem 0;
+    margin:.2rem 0 .2rem 0;
 }
 .we_right{
     width:55%;
     float:right;
-    padding:0 0 0 4rem;
+    padding:0 0 0 .4rem;
     border-left:1px solid #999;
 }
+
 .we_right .right_wrap{
     width:70%;
 }
 .we_right .p1{
-    margin:2rem 0 2rem 0;
-    font-size: 1.6rem;
-    line-height: 2rem;
+    margin:20px 0 20px 0;
+    font-size: 16px;
+    line-height: 25px;
 }
 .we_right .p1 a{
     color:#ff6527;
 }
 .we_right .p2{
-    margin:3rem 0 3rem 0;
+    margin:.3rem 0 .3rem 0;
 }
 .we_right .p2 a{;
-    padding: 1rem 2rem;
+    padding: .1rem .2rem;
     background-color: #0066b5;
     color: #fff;
-    margin-right: 1rem;
+    margin-right: .1rem;
 }
 .we_right .p2 a:hover{
     background-color: #ff6527;
 }
 .we_line{
     border-top: 1px solid #999;
-    padding-top: 2rem;
-    margin-top: 2rem;
+    padding-top:20px;
+    margin-top: 20px;
 }
-.we_right .ul01{
+/*.we_right .ul01{
     margin-bottom:-1rem;
-}
+}*/
 .we_right .ul01 li{
-    line-height: 3rem;
+    line-height: 30px;
 }
 .we_right .ul01 li i{
-    padding-right:1.5rem;
+    padding-right:14px;
 }
 .we_right .ul02 li{
-    margin-bottom:1rem;
+    margin-bottom:.2rem;
 }
-@media screen and (max-width: 850px){
+@media screen and (max-width: 750px){
     .we_left{
         display:none;
     }
@@ -488,8 +501,12 @@ header .navbar-default .navbar-nav>li>a:hover{
         font-size:16px;
     }
     .we_right{
+        width:70%;
         float:none;
         margin:0 auto;
+    }
+    .we_right h2{
+        font-size:22px;
     }
     .we_right .p2,.we_right .ul02,.last_line{
         display:none;
